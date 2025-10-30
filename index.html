@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>LogiRoutes — Iniciar sesión</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-soft">
+
+  <main class="login-grid">
+    <div class="brand-panel">
+      <div class="brand-logo">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" aria-hidden>
+          <rect x="2" y="6" width="20" height="12" rx="2" fill="#0b63d4"/>
+          <path d="M5 10h6" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M5 14h6" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <div>
+          <h1>LogiRoutes</h1>
+          <p class="muted">Gestión de Rutas Logísticas</p>
+        </div>
+      </div>
+      <div class="hero-illustration">
+        <img src="img/placeholder1.svg" alt="Ilustración rutas">
+      </div>
+      <p class="muted small">Proyecto universitario • Presentación visual</p>
+    </div>
+
+    <section class="login-card">
+      <h2>Bienvenido</h2>
+      <p class="muted">Ingresa con tu cuenta administrativa.</p>
+
+      <form id="loginForm" class="form">
+        <label>Usuario
+          <input id="user" type="text" placeholder="admin" required>
+        </label>
+
+        <label>Contraseña
+          <input id="pass" type="password" placeholder="1234" required>
+        </label>
+
+        <div class="row">
+          <button class="btn primary" type="submit">Iniciar sesión</button>
+          <button class="btn ghost" type="button" id="helpBtn">Ayuda</button>
+        </div>
+
+        <p class="note">Usuario demo: <strong>admin</strong> — Contraseña: <strong>1234</strong></p>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
